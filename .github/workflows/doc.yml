@@ -39,7 +39,7 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           branch: gh-pages
-          folder: docs
+          folder: docs.api
           single-commit: true
           git-config-name: Doc-U-Bot
           # dry-run: true  # DEBUG
